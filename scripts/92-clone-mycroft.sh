@@ -5,9 +5,6 @@ USER=mycroft
 tar -xzf /var/tmp/mycroft-core-setup-aarch64.tar.gz -C /home/$USER/
 rm /var/tmp/mycroft-core-setup-aarch64.tar.gz
 
-# Ensure all the dependencies are updated
-/home/$USER/mycroft-core/dev_setup.sh
-
 # Add Mycroft helper commands to $PATH
 echo 'export PATH="/home/$USER/mycroft-core/bin:$PATH"' >> ~/.bashrc
 
