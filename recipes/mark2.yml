@@ -13,6 +13,7 @@ actions:
     packages:
       - mycroft-gui
       - qml-module-org-kde-lottie
+      - sj201-startup
 
   - action: download
     description: Download Noto Sans Font
